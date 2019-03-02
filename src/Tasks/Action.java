@@ -1,6 +1,5 @@
-package Tasks;
+package com.company;
 
-@FunctionalInterface
 public interface Action {
     void run();
 }
