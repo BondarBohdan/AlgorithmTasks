@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Number554 implements Runnable {
+public class Number554 implements Action {
     @Override
     public void run() {
         Scanner scanner=new Scanner(System.in);

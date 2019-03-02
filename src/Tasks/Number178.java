@@ -3,7 +3,7 @@ package Tasks;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Number178 implements Runnable {
+public class Number178 implements Action {
     // 178 б) в)
     @Override
     public void run() {

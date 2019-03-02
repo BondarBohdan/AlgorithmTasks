@@ -1,3 +1,4 @@
+import Tasks.Action;
 import Tasks.Number178;
 import Tasks.Number554;
 
@@ -7,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Map<String,Class<? extends Runnable>> numbersTasks=new HashMap<>();
+        Map<String,Class<? extends Action>> numbersTasks=new HashMap<>();
         numbersTasks.put("178", Number178.class);
         numbersTasks.put("554",Number554.class);
 
