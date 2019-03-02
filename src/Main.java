@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Map<String,Class<? extends Action>> numbersTasks=new HashMap<>();
         numbersTasks.put("178", Number178.class);
         numbersTasks.put("554",Number554.class);
@@ -23,5 +23,6 @@ public class Main {
             numbersTasks.get(number).getConstructor().newInstance().run();
         } catch (Exception ex) {}
 
+        main();
     }
 }
