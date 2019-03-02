@@ -1,7 +1,6 @@
-import Tasks.alex.*;
+import tasks.alex.*;
 
-import Tasks.Number178;
-import Tasks.Number554;
+import tasks.romanBoiarchuk.*;
 
 import java.util.HashMap;
 import java.util.Map;
