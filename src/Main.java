@@ -1,4 +1,5 @@
 import Tasks.*;
+import bohdan.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +13,10 @@ public class Main {
         numbersTasks.put("332", Number332.class);
         numbersTasks.put("88_v", Number88_v.class);
         numbersTasks.put("88_g", Number88_g.class);
+        numbersTasks.put("87", Number87.class);
+        numbersTasks.put("226", Number226.class);
+        numbersTasks.put("559", Number559.class);
+        
 
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
