@@ -1,4 +1,4 @@
-package mota;
+package Tasks.mota;
 
 import java.util.ArrayList;
 import java.util.List;

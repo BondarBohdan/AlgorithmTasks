@@ -1,7 +1,7 @@
 import Tasks.Action;
 import Tasks.Number178;
 import Tasks.Number554;
-import mota.*;
+import Tasks.mota.*;
 
 import java.util.HashMap;
 import java.util.Map;
