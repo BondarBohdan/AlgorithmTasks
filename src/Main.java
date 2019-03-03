@@ -9,7 +9,6 @@ import Tasks.olena.Number243;
 import Tasks.volodymyr.Number88_a;
 import Tasks.volodymyr.Number88_b;
 import Tasks.volodymyr.Number322;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
