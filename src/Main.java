@@ -1,5 +1,8 @@
 import Tasks.*;
-
+import Tasks.Action;
+import Tasks.Number178;
+import Tasks.Number554;
+import Tasks.mota.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -12,6 +15,8 @@ public class Main {
         numbersTasks.put("332", Number332.class);
         numbersTasks.put("88_v", Number88_v.class);
         numbersTasks.put("88_g", Number88_g.class);
+        numbersTasks.put("86",Number86.class);
+        numbersTasks.put("330",Number330.class);
 
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
