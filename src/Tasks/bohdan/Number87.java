@@ -1,12 +1,10 @@
-package bohdan;
+package Tasks.bohdan;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 import Tasks.Action;
 
-public class Number226 implements Action{
+public class Number87 implements Action{
 
 	@Override
 	public void run() {
@@ -14,7 +12,7 @@ public class Number226 implements Action{
 		int n;
 		int m;
 		
-		System.out.println("Дано натуральні n, m. Отримати всі їх наутральні спільні кратні менші mn.");
+		System.out.println("Дано натуральні n, m. Отримати суму m останніх цифр числа n.");
         System.out.println("n = ");
         n = sc.nextInt();
         System.out.println("m = ");
@@ -27,15 +25,19 @@ public class Number226 implements Action{
         }
 	}
 	
-	public List<Integer> task(int n, int m) {
-		List<Integer> list = new ArrayList<>();
+	public int task(int n, int m) throws Exception {
+
+		int sum = 0;
 		
-		for (int i = n * m; i > 0; i--) {
-			if ((i % n == 0) && (i % m == 0)) {
-				list.add(i);
-			}
+		if(String.valueOf(n).length() < m) {
+			throw new Exception("m > n.length");
 		}
 		
-		return list;
+		for (int i = 0; i < m; i++) {
+			sum += (n % 10);
+			n /= 10;
+		}
+		
+		return sum;
 	}
 }

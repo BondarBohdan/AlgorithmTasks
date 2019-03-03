@@ -1,5 +1,5 @@
 import Tasks.*;
-import bohdan.*;
+import Tasks.bohdan.*;
 
 import java.util.HashMap;
 import java.util.Map;

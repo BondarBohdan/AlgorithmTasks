@@ -1,4 +1,4 @@
-package bohdan;
+package Tasks.bohdan;
 
 import java.util.ArrayList;
 import java.util.List;
