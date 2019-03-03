@@ -50,6 +50,6 @@ public class Main {
         try {
             numbersTasks.get(number).getConstructor().newInstance().run();
         } catch (Exception ex) {}
-
+        main();
     }
 }
