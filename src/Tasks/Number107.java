@@ -5,7 +5,7 @@ import java.util.Scanner;
 import Tasks.olena.Degree;
 import Tasks.olena.NumberOutOfRangeException;
 
-public class Number107 {
+public class Number107 implements Action {
 	public void run(){
 		boolean loop=true;
 		Scanner scan;
