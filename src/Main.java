@@ -4,6 +4,8 @@ import Tasks.Number178;
 import Tasks.Number554;
 import Tasks.mota.*;
 import Tasks.bohdan.*;
+import Tasks.olena.Number107;
+import Tasks.olena.Number243;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +24,8 @@ public class Main {
         numbersTasks.put("87", Number87.class);
         numbersTasks.put("226", Number226.class);
         numbersTasks.put("559", Number559.class);
-
+        numbersTasks.put("107", Number107.class);
+        numbersTasks.put("243", Number243.class);
 
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
