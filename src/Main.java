@@ -1,6 +1,4 @@
-import Tasks.Action;
-import Tasks.Number178;
-import Tasks.Number554;
+import Tasks.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +9,9 @@ public class Main {
         Map<String,Class<? extends Action>> numbersTasks=new HashMap<>();
         numbersTasks.put("178", Number178.class);
         numbersTasks.put("554",Number554.class);
+        numbersTasks.put("332", Number332.class);
+        numbersTasks.put("88_v", Number88_v.class);
+        numbersTasks.put("88_g", Number88_g.class);
 
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
