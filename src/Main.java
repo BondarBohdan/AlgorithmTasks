@@ -12,7 +12,9 @@ public class Main {
         numbersTasks.put("332", Number332.class);
         numbersTasks.put("88_v", Number88_v.class);
         numbersTasks.put("88_g", Number88_g.class);
-
+        numbersTasks.put("107", Number107.class);
+        numbersTasks.put("243", Number243.class);
+        
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
 
