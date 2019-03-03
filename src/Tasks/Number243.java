@@ -8,7 +8,7 @@ import Tasks.olena.NumberOutOfRangeException;
 import Tasks.olena.Pair;
 import Tasks.olena.SumOfSquares;
 
-public class Number243 {
+public class Number243 implements Action{
 	
 	public void run(){
 		boolean loop=true;
