@@ -1,6 +1,7 @@
 import Tasks.Action;
 import Tasks.Number178;
 import Tasks.Number554;
+import mota.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +12,8 @@ public class Main {
         Map<String,Class<? extends Action>> numbersTasks=new HashMap<>();
         numbersTasks.put("178", Number178.class);
         numbersTasks.put("554",Number554.class);
+        numbersTasks.put("86",Number86.class);
+        numbersTasks.put("330",Number330.class);
 
         System.out.println("Available tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
