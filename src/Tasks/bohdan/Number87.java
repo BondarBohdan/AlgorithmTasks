@@ -12,7 +12,7 @@ public class Number87 implements Action{
 		int n;
 		int m;
 		
-		System.out.println("Дано натуральні n, m. Отримати суму m останніх цифр числа n.");
+		System.out.println("Given natural n, m. Get sum of m last digits of number n.");
         System.out.println("n = ");
         n = sc.nextInt();
         System.out.println("m = ");

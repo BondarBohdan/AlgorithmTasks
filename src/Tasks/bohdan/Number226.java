@@ -14,7 +14,7 @@ public class Number226 implements Action{
 		int n;
 		int m;
 		
-		System.out.println("Дано натуральні n, m. Отримати всі їх наутральні спільні кратні менші mn.");
+		System.out.println("Given natural n, m. Get all common multiples lesse than mn.");
         System.out.println("n = ");
         n = sc.nextInt();
         System.out.println("m = ");

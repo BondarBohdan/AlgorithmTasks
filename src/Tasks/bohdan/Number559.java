@@ -13,9 +13,7 @@ public class Number559 implements Action{
 		Scanner sc = new Scanner(System.in);
 		int n;
 		
-		System.out.println("Дано натуральне число n. Знайти всі менші n числа Мерсена. "
-				+ "\n(Просте число називається числом Мерсена, якщо воно може бути представлено "
-				+ "\nу вигляді 2^p - 1, де р - також просте число.)");
+		System.out.println("Given natural number n. Find all Mersenne's numbers less than n.");
         System.out.println("n = ");
         n = sc.nextInt();
         
