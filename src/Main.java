@@ -10,6 +10,8 @@ public class Main {
         numbersTasks.put("178", Number178.class);
         numbersTasks.put("554",Number554.class);
         numbersTasks.put("332", Number332.class);
+        numbersTasks.put("88_a", Number88_a.class);
+        numbersTasks.put("88_b", Number88_b.class);
         numbersTasks.put("88_v", Number88_v.class);
         numbersTasks.put("88_g", Number88_g.class);
 
