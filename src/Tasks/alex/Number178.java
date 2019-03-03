@@ -1,4 +1,7 @@
-package com.company;
+
+package tasks.alex;
+
+import tasks.Action;
 
 import java.util.Scanner;
 

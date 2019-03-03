@@ -1,8 +1,11 @@
-package com.company;
+package tasks.alex;
+
 
 public class Number178D extends Number178 {
     @Override
     public void run() {
+
+        System.out.println("input");
         new Number178D().naturalNumbersD();
     }
 

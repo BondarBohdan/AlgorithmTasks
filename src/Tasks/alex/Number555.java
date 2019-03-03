@@ -1,4 +1,7 @@
-package com.company;
+
+package tasks.alex;
+
+import tasks.Action;
 
 import java.util.Scanner;
 
@@ -6,6 +9,10 @@ public class Number555 implements Action {
     Scanner scanner = new Scanner(System.in);
     @Override
     public void run() {
+
+        System.out.println("input");
+
+
         new Number555().triangle();
     }
     public void triangle(){
