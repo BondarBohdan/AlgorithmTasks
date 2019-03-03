@@ -4,10 +4,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Set;
 
-import Tasks.olena.NumberOutOfRangeException;
-import Tasks.olena.Pair;
-import Tasks.olena.SumOfSquares;
-
 public class Number243 implements Action{
 	
 	public void run(){
