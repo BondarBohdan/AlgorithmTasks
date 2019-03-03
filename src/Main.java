@@ -9,6 +9,9 @@ import Tasks.olena.Number243;
 import Tasks.volodymyr.Number88_a;
 import Tasks.volodymyr.Number88_b;
 import Tasks.volodymyr.Number322;
+import Tasks.danylo.Number108;
+import Tasks.danylo.Number331;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -32,10 +35,13 @@ public class Main {
         numbersTasks.put("107", Number107.class);
         numbersTasks.put("243", Number243.class);
 
-        System.out.println("Available tasks: ");
+        numbersTasks.put("108", Number108.class);
+        numbersTasks.put("331", Number331.class);
+
+        System.out.println("\nAvailable tasks: ");
         numbersTasks.keySet().forEach(System.out::println);
 
-        System.out.println("Number: ");
+        System.out.println("\nNumber: ");
         Scanner scanner=new Scanner(System.in);
         String number=scanner.nextLine();
 
