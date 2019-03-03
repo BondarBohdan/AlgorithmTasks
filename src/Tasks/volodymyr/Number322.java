@@ -1,6 +1,6 @@
+package Tasks.volodymyr;
 
-
-public class Number322  implements Action {
+public class Number322  implements Tasks.Action {
     @Override
     public void run() {
         System.out.println();

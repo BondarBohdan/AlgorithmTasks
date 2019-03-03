@@ -1,6 +1,8 @@
+package Tasks.volodymyr;
+import Tasks.Action;
 import java.util.Scanner;
 
-public class Number88A  implements Action {
+public class Number88_a  implements Action {
 
     @Override
     public void run() {

@@ -1,4 +1,6 @@
 import Tasks.*;
+import Tasks.volodymyr.Number88_a;
+import Tasks.volodymyr.Number88_b;
 
 import java.util.HashMap;
 import java.util.Map;
