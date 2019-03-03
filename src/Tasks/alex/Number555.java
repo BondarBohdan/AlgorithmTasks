@@ -1,7 +1,6 @@
+package Tasks.alex;
 
-package tasks.alex;
-
-import tasks.Action;
+import Tasks.Action;
 
 import java.util.Scanner;
 

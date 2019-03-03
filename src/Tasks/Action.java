@@ -1,4 +1,4 @@
-package tasks;
+package Tasks;
 
 public interface Action {
     void run();
